@@ -1,52 +1,16 @@
-# Prerequisites
-*.d
+# Pycharm files
+*.xml
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# dir:
+original_data/
+doc/
+doc/*
 
-# Linker output
-*.ilk
-*.map
-*.exp
 
-# Precompiled Headers
-*.gch
-*.pch
+# plot:
+plot
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# netcdf, etc...
+data/list_classes__5Regimes.csv
+*.nc
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
